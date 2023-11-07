@@ -1,10 +1,20 @@
-@import "https://unpkg.com/open-props";
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import ";
+@import ;
 
-body{
+body {
     background: --cyan-3;
 }
 
-h1{
+h1 a {
+  text-decoration: none;
+}
+
+h1 {
     text-align: center;
+}
+
+audio {
+    align: center;
+    width: 100%;
+    background: blue;
 }
