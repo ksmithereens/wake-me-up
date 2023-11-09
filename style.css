@@ -1,20 +1,36 @@
-@import ";
-@import ;
+@import "https://unpkg.com/open-props";
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
 
 body {
-    background: --cyan-3;
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: var(--font-size-3);
+  letter-spacing: 0.5px;
+  color: var(--purple-1);
+  text-align: center;
+  background-image: var(--gradient-27);
 }
 
 h1 a {
-  text-decoration: none;
+text-decoration: none;
+color: white;
+
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 audio {
-    align: center;
-    width: 100%;
-    background: blue;
+ width: 40%;
+ background: magenta;
+ border-radius: 20px;
+}
+
+div {
+width: 500px;
+height: 1050px;
+background-image: var(--gradient-20);
+border-radius: 40px;
+margin: auto;
+box-shadow: var(--shadow-6);
 }
